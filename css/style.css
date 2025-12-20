@@ -193,12 +193,12 @@ h1 {
 
 /* ===== INTRO TEKST ===== */
 .intro {
-    max-width: 900px;      /* ⬅️ hoe breed de tekst mag zijn */
+    max-width: 1000px;      /* ⬅️ hoe breed de tekst mag zijn */
     margin: 40px auto;     /* ⬅️ centreert horizontaal */
     padding: 0 20px;       /* ⬅️ ruimte links/rechts op kleine schermen */
     text-align: center;    /* ⬅️ centreert de tekst zelf */
-    font-size: 18px;       /* ⬅️ tekstgrootte */
-    line-height: 1.6;      /* ⬅️ regelafstand */
+    font-size: 16px;       /* ⬅️ tekstgrootte */
+    line-height: 1.5;      /* ⬅️ regelafstand */
 }
 
 /* ===== STAPPEN (STARTPAGINA) ===== */
