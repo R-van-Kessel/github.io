@@ -193,7 +193,7 @@ h1 {
 
 /* ===== INTRO TEKST ===== */
 .intro {
-    max-width: 1000px;      /* ⬅️ hoe breed de tekst mag zijn */
+    max-width: 1200px;      /* ⬅️ hoe breed de tekst mag zijn */
     margin: 40px auto;     /* ⬅️ centreert horizontaal */
     padding: 0 20px;       /* ⬅️ ruimte links/rechts op kleine schermen */
     text-align: center;    /* ⬅️ centreert de tekst zelf */
@@ -214,7 +214,7 @@ h1 {
 
 /* ===== INDIVIDUELE STAP ===== */
 .step {
-    width: 260px;                  /* grootte van elke stap */
+    width: 360px;                  /* grootte van elke stap */
     text-align: center;
 }
 
@@ -225,13 +225,13 @@ h1 {
     object-fit: contain;
     border-radius: 16px;
     background: #1b2838;
-    padding: 15px;
+    padding: 10px;
 }
 
 /* ===== TEKST ===== */
 .step h3 {
     margin-top: 12px;
-    font-size: 18px;
+    font-size: 16px;
     color: #66c0f4;
 }
 
