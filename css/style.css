@@ -8,12 +8,16 @@
 }
 
 body {
-    margin: 0; /*geen witte rand*/
+    margin: 0;
     background: #0e1621;
     color: white;
     font-family: Arial, sans-serif;
-    overflow-x: hidden; /*geen horizontale scrol*/
+    overflow-x: hidden;
+
+    position: relative;   /* ⬅️ NIEUW */
+    z-index: 0;            /* ⬅️ basislaag */
 }
+
 
 /* ===== KLEUR VARIANTEN PER PAGINA ===== */
 body.start {
