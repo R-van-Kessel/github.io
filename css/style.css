@@ -112,48 +112,6 @@ h1 {
     z-index: 10;          /* ⬅️ zorgt dat het boven de draak staan */
 }
 
-/* ===== STAPPEN (STARTPAGINA) ===== */
-.steps {
-    display: flex;                 /* zet de 3 stappen naast elkaar */
-    justify-content: center;       /* centreert alles */
-    align-items: center;
-    gap: 30px;                     /* ruimte tussen stappen & pijlen */
-    max-width: 1300px;
-    margin: 60px auto;
-    padding: 0 20px;
-   position: relative;   /* ⬅️ nodig voor z-index */
-    z-index: 10;          /* ⬅️ zorgt dat steps boven de draak staan */
-}
-
-/* ===== INDIVIDUELE STAP ===== */
-.step {
-    width: 400px;                  /* grootte van elke stap */
-    text-align: center;
-}
-
-/* ===== AFBEELDING ===== */
-.step img {
-    width: 100%;
-    aspect-ratio: 1 / 1;           /* vierkant */
-    object-fit: contain;
-    border-radius: 16px;
-    background: #1b2838;
-    padding: 10px;
-}
-
-/* ===== TEKST ===== */
-.step {
-    margin-top: 12px;
-    font-size: 14px;
-    color: #ffffff;
-}
-
-/* ===== PIJL ===== */
-.arrow {
-    font-size: 36px;
-    color: #ffffff;
-    opacity: 0.8;
-}
 
 /* ===== DRAAK ===== */
 .site-title .dragon {
@@ -198,10 +156,10 @@ h1 {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.game:hover,
-.card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 0 25px var(--accent-glow);
+.game:hover .play,
+.card:hover .play {
+    opacity: 1;
+    transform: scale(1);
 }
 
 /* ===== IMAGE ===== */
@@ -225,23 +183,22 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 15px;              /* ⬅️ RUIMTE VANAF DE RAND */
-    box-sizing: border-box;     /* ⬅️ belangrijk */
+    padding: 15px;
+    box-sizing: border-box;
     background: linear-gradient(to top, rgba(0,0,0,0.85), transparent);
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    opacity: 1; /* ⬅️ altijd zichtbaar */
 }
 
-.game:hover .overlay,
-.card:hover .card-inner {
-    opacity: 1;
-}
 
 /* ===== PLAY BUTTON ===== */
 .play {
     font-size: 55px;
     color: var(--accent);
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 
 /* ===== TITELS ===== */
 .title,
