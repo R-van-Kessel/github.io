@@ -92,6 +92,7 @@ body::before {
     background: rgba(255,255,255,.35);
     box-shadow: inset 0 2px 4px rgba(0,0,0,.1);
 }
+
 /* ===== TITEL ===== */
 h1 {
     display: flex;
