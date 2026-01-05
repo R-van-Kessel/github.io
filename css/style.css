@@ -89,10 +89,9 @@ body::before {
 }
 
 .nav a.active {
-    background: rgba(255,255,255,.5);
-    box-shadow: 
-        inset 0 2px 4px rgba(0, 0, 0, 0.1),
-        0 3px 0 0 var(--accent);  /* ⬅️ dikke gloeiende lijn */
+    background: rgba(255,255,255,0.35);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 3px solid white;  /* ⬅️ alleen active is wit onderstreept */
 }
 
 /* ===== TITEL ===== */
@@ -111,7 +110,7 @@ h1 {
 }
 /* ===== INTRO TEKST ===== */
 .intro {
-    max-width: 800px;        /* ⬅️ breedte van de tekstblok */
+    max-width: 1000px;        /* ⬅️ breedte van de tekstblok */
     margin: 40px auto;       /* ⬅️ centreert horizontaal */
     padding: 0 20px;         
     text-align: left;        /* ⬅️ AANGEPAST: tekst links uitgelijnd */
@@ -149,7 +148,7 @@ h1 {
 }
 
 .verwijzingen a:hover {
-    color: var(--accent);    /* ⬅️ HIER PAS JE HOVER KLEUR AAN */
+    color: #fcfc47;    /* ⬅️ HIER PAS JE HOVER KLEUR AAN */
     text-shadow: 0 0 10px var(--accent-glow);
 }
 
