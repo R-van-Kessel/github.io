@@ -27,7 +27,7 @@ body.start {
 
 body.rekenles {
     --accent: #ffffff;
-    --accent-glow: rgba(132,10,248,0.6);
+    --accent-glow: rgba(132,10,248,0.8);
 }
 
 body.klas1 {
@@ -42,12 +42,12 @@ body.klas2 {
 
 body.klas3 {
     --accent: #ffffff;
-    --accent-glow: rgba(216,3,27,0.6);
+    --accent-glow: rgba(216,3,27,0.8);
 }
 
 body.bovenbouw {
     --accent: #ffffff;
-    --accent-glow: rgba(117,4,70,0.6);
+    --accent-glow: rgba(117,4,70,0.8);
 }
 
 /* ===== SUBTIELE ACHTERGROND GLOW ===== */
