@@ -24,8 +24,8 @@ body.start {
     --accent-glow: rgba(248,192,10,0.8);
 }
 
-body.rekenles {
-    --accent-glow: rgba(236,174,249,0.8);
+body.rekenen {
+    --accent-glow: rgba(226,84,249,0.8);
 }
 
 body.klas1 {
