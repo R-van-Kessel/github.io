@@ -21,8 +21,8 @@ body {
 
 /* ===== KLEUR VARIANTEN PER PAGINA ===== */
 body.start {
-    --accent: #66c0f4;
-    --accent-glow: rgba(102,192,244,0.6);
+    --accent: #ffffff;
+    --accent-glow: rgba(248,192,10,0.6);
 }
 
 body.rekenles {
