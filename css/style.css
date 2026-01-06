@@ -21,13 +21,11 @@ body {
 
 /* ===== KLEUR VARIANTEN PER PAGINA ===== */
 body.start {
-    --accent: #ffffff;
     --accent-glow: rgba(248,192,10,0.6);
 }
 
 body.rekenles {
-    --accent: #ffffff;
-    --accent-glow: rgba(221,6,241,0.8);
+    --accent-glow: rgba(236,174,249,0.8);
 }
 
 body.klas1 {
