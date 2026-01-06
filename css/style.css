@@ -118,11 +118,11 @@ h1 {
     line-height: 1.6;        
     position: relative;      
     z-index: 10;             
-    color: #fafa8d;          /* ⬅️ HIER PAS JE TEKSTKLEUR AAN */
+    color: #ffffff;          /* ⬅️ HIER PAS JE TEKSTKLEUR AAN */
 }
 
 .intro strong {
-    color: #fafa8d;    /* ⬅️ HIER PAS JE KLEUR VAN BOLD TEKST AAN */
+    color: #ffffff;    /* ⬅️ HIER PAS JE KLEUR VAN BOLD TEKST AAN */
 }
 
 /* ===== VERWIJZINGEN ===== */
@@ -140,7 +140,7 @@ h1 {
 }
 
 .verwijzingen a {
-    color: #fafa8d;          /* ⬅️ HIER PAS JE LINK KLEUR AAN */
+    color: #ffffff;          /* ⬅️ HIER PAS JE LINK KLEUR AAN */
     text-decoration: none;
     font-size: 18px;
     transition: color 0.3s ease;
