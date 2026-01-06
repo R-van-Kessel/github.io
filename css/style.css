@@ -160,14 +160,14 @@ h1 {
     z-index: 10;
 }
 .uitleg a {
-    color: #0066cc;              /* Link kleur */
-    font-size: 16px;             /* Tekst grootte */
+    color: #ffffff;              /* Link kleur */
+    font-size: 18px;             /* Tekst grootte */
     text-decoration: underline;  /* Onderstreping */
     transition: all 0.3s ease;   /* Vloeiende overgang */
 }
 
 .uitleg a:hover {
-    color: #ff6600;              /* Hover kleur */
+    color: #fafa8d;              /* Hover kleur */
     font-size: 18px;             /* Tekst grootte bij hover (optioneel) */
     text-decoration: none;       /* Geen onderstreping bij hover */
 }
