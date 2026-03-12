@@ -126,29 +126,47 @@ h1 {
 }
 
 /* ===== VERWIJZINGEN ===== */
-.verwijzingen {
-    max-width: 1000px;        /* ⬅️ zelfde breedte als intro */
-    margin: 20px auto 60px;  /* ⬅️ centreert horizontaal */
-    padding: 0 20px;
-    text-align: left;        /* ⬅️ tekst links uitgelijnd */
-    position: relative;
-    z-index: 10;
+.verwijzingen-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  padding: 1rem 0;
 }
 
-.verwijzingen p {
-    margin: 15px 0;          /* ⬅️ ruimte tussen links */
+.verwijzing-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 1.2rem 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  background: #f9f9f9;
+  transition: background 0.2s, box-shadow 0.2s;
 }
 
-.verwijzingen a {
-    color: #ffffff;          /* ⬅️ HIER PAS JE LINK KLEUR AAN */
-    text-decoration: none;
-    font-size: 18px;
-    transition: color 0.3s ease;
+.verwijzing-card:hover {
+  background: #eef4ff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
 
-.verwijzingen a:hover {
-    color: #fafa8d;    /* ⬅️ HIER PAS JE HOVER KLEUR AAN */
-    text-shadow: 0 0 10px var(--accent-glow);
+.verwijzing-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.verwijzing-titel {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+/* Responsief: 2 kolommen op kleine schermen */
+@media (max-width: 600px) {
+  .verwijzingen-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 /* ===== STAPPEN (STARTPAGINA) ===== */
 .steps {
